@@ -16,8 +16,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 // PayPal creditors (Sandbox)
-const PAYPAL_CLIENT_ID = 'AUKn37wMpScFjyMD4pGcOawEta8IyMbh67iVWuYan0IkQVrHVUfrJLNT7ZLeHcxNWOJgABjqLZ-MA2wc';
-const PAYPAL_CLIENT_SECRET = 'ELBUYzhUXUKVQZhq9JjZBZYuH6j8ixYuFOXr0NgvI_dXTT0_hl54MPCJbnVvAPdXD7YycK9QrQQU8ZVi';
+const PAYPAL_CLIENT_ID = 'PAYPAL_CLIENT_ID';
+const PAYPAL_CLIENT_SECRET = 'PAYPAL_CLIENT_SECRET';
 
 // Function to get ACCESS_TOKEN
 async function getAccessToken() {
